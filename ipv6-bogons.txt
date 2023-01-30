@@ -1,5 +1,11 @@
-# RFC 5156 Unspecified routes, loopbacks, and IPv4-mapped addresses
-::/8
+# RFC 5156 Unspecified route
+::/128
+# RFC 5156 Loopback
+::1/128
+# RFC 5156 IPv4-mapped addresses
+::ffff:0:0/96
+# RFC 5156 IPv4-compatible addresses
+::/96
 # RFC 6052 IPv4-IPv6 Translation
 64:ff9b::/96
 # RFC 6666 Discard-Only
