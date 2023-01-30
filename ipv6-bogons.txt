@@ -1,40 +1,33 @@
-::/128
-::1/128
-::ffff:0:0/96
-::/96
+# RFC 5156 Default route
+::/0
+# RFC 5156 Unspecified routes, loopbacks, and IPv4-mapped addresses
+::/8
+# RFC 6052 IPv4-IPv6 Translation
+64:ff9b::/96
+# RFC 6666 Discard-Only
 100::/64
+# RFC 5156 Teredo
+2001::/32
+# RFC 5180 Benchmarking
 2001:2::/48
+# RFC 7450 Automatic Multicast Tunneling
+2001:3::/32
+# RFC 5156 ORCHID (Deprecated)
 2001:10::/28
+# RFC 7343 ORCHIDv2
+2001:20::/28
+# RFC 5156 Documentation Prefix
 2001:db8::/32
+# RFC 5156 6to4
+2002::/16
+# RFC 5156 6bone (Deprecated)
 3ffe::/16
+5f00::/8
+# RFC 5156 Unique-Local
 fc00::/7
+# RFC 5156 Link-Scoped Unicast - NOT FILTERED
+#fe80::/10
+# RFC 3879 Site local unicast (Deprecated)
 fec0::/10
+# RFC 5156 Multicast
 ff00::/8
-2002::/24
-2002:a00::/24
-2002:7f00::/24
-2002:a9fe::/32
-2002:ac10::/28
-2002:c000::/40
-2002:c000:200::/40
-2002:c0a8::/32
-2002:c612::/31
-2002:c633:6400::/40
-2002:cb00:7100::/40
-2002:e000::/20
-2002:f000::/20
-2002:ffff:ffff::/48
-2001::/40
-2001:0:a00::/40
-2001:0:7f00::/40
-2001:0:a9fe::/48
-2001:0:ac10::/44
-2001:0:c000::/56
-2001:0:c000:200::/56
-2001:0:c0a8::/48
-2001:0:c612::/47
-2001:0:c633:6400::/56
-2001:0:cb00:7100::/56
-2001:0:e000::/36
-2001:0:f000::/36
-2001:0:ffff:ffff::/64
