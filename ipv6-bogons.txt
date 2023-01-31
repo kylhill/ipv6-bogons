@@ -1,14 +1,5 @@
-# RFC 5156 Unspecified route
-::/128
-
-# RFC 5156 Loopback
-::1/128
-
-# RFC 5156 IPv4-mapped addresses
-::ffff:0:0/96
-
-# RFC 5156 IPv4-compatible addresses
-::/96
+# RFC 5156 Loopback, unspecified, v4-mapped
+::/8
 
 # RFC 6052 IPv4-IPv6 Translation
 64:ff9b::/96
@@ -22,13 +13,13 @@
 # RFC 7450 Automatic Multicast Tunneling
 2001:3::/32
 
-# RFC 5156 ORCHID (Deprecated)
+# RFC 4843 ORCHID (Deprecated)
 2001:10::/28
 
 # RFC 7343 ORCHIDv2
 2001:20::/28
 
-# RFC 5156 Documentation Prefix
+# RFC 3849 Documentation Prefix
 2001:db8::/32
 
 # RFC 5156 6bone (Deprecated)
