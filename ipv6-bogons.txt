@@ -4,8 +4,17 @@
 # RFC 6052 IPv4-IPv6 Translation
 64:ff9b::/96
 
-# RFC 6666 Discard-Only
+# RFC 6666 Discard-Only Address Block
 100::/64
+
+# RFC 4048/4291 IETF Reserved
+200::/7
+400::/6
+800::/5
+1000::/4
+
+# RFC 4380 Teredo prefix
+#2001::/32
 
 # RFC 5180 Benchmarking
 2001:2::/48
@@ -19,17 +28,33 @@
 # RFC 7343 ORCHIDv2
 2001:20::/28
 
-# RFC 3849 Documentation Prefix
+# RFC 3849 Documentation
 2001:db8::/32
+
+# RFC 3068 6to4 prefix
+#2002::/16
 
 # RFC 5156 6bone (Deprecated)
 3ffe::/16
 5f00::/8
 
-# RFC 5156 Unique-Local
+# RFC 4291 IETF Reserved
+4000::/3
+6000::/3
+8000::/3
+a000::/3
+c000::/3
+e000::/4
+f000::/5
+f800::/6
+
+# RFC 4193 Unique Local Unicast
 fc00::/7
 
-# RFC 3879 Site local unicast (Deprecated)
+# RFC 4291 Link Local Unicast
+#fe80::/10
+
+# RFC 3879 Site Local Unicast (Deprecated)
 fec0::/10
 
 # RFC 5156 Multicast
