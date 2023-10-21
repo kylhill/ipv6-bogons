@@ -58,7 +58,7 @@ fc00::/7
 fec0::/10
 
 # RFC 5156 Multicast
-ff00::/8
+#ff00::/8
 
 # 6to4 Bogons
 2002::/24
