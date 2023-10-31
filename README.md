@@ -5,5 +5,6 @@ IPv6 Bogon Ranges suitible for generating ipset filters to use in ip6tables
 * 'whois -h whois.ripe.net fltr-martian-v6'
   - Teredo (2001::/32) and 6to4 (2002::/16) addresses are NOT FILTERED to avoid dropping legitimate traffic
   - fe80::/10 Link Local Unicast is NOT FILTERED to allow link-local communication to function
+  - ff00::/8 Multicast is NOT FILTERED to allow dhcpv6 to function
 * "IPv6 Additional Bogon Ranges" from https://ipgeolocation.io/resources/bogon.html
   - Teredo (2001::/32) and 6to4 (2002::/16) IPv4-mapped Bogons
