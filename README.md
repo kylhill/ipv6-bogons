@@ -1,5 +1,5 @@
 # ipv6-bogons
-IPv6 Bogon Ranges suitible for generating ipset filters to use in ip6tables
+IPv6 Bogon Ranges suitible for generating set filters to use in nftables
 
 ## Generated from:
 * 'whois -h whois.ripe.net fltr-martian-v6'
