@@ -52,7 +52,7 @@ f800::/6
 fc00::/7
 
 # RFC 4291 Link Local Unicast
-#fe80::/10
+fe80::/10
 
 # RFC 3879 Site Local Unicast (Deprecated)
 fec0::/10
