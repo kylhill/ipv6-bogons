@@ -1,93 +1,45 @@
-# RFC 5156 Loopback, unspecified, v4-mapped
+# loopback, unspecified, v4-mapped
 ::/8
 
-# RFC 6052 IPv4-IPv6 Translation
+# IPv4-IPv6 Translat. [RFC6052]
 64:ff9b::/96
 
-# RFC 6666 Discard-Only Address Block
-100::/64
+# reserved for Discard-Only Address Block [RFC6666]
+100::/8
 
-# RFC 4048/4291 IETF Reserved
-200::/7
-400::/6
-800::/5
-1000::/4
+# Teredo prefix [RFC4380]
+2001::/32
 
-# RFC 4380 Teredo prefix
-#2001::/32
-
-# RFC 5180 Benchmarking
+# Benchmarking [RFC5180]
 2001:2::/48
 
-# RFC 7450 Automatic Multicast Tunneling
+# Automatic Multicast Tunneling [RFC7450]
 2001:3::/32
 
-# RFC 4843 ORCHID (Deprecated)
+# Deprecated ORCHID [RFC4843]
 2001:10::/28
 
-# RFC 7343 ORCHIDv2
+# ORCHIDv2 [RFC7343]
 2001:20::/28
 
-# RFC 3849 Documentation
+# NON-ROUTABLE range to be used for documentation purpose [RFC3849]
 2001:db8::/32
 
-# RFC 3068 6to4 prefix
-#2002::/16
+# 6to4 prefix [RFC3068]
+2002::/16
 
-# RFC 5156 6bone (Deprecated)
+# used for the 6bone but was returned [RFC5156]
 3ffe::/16
 5f00::/8
 
-# RFC 4291 IETF Reserved
-4000::/3
-6000::/3
-8000::/3
-a000::/3
-c000::/3
-e000::/4
-f000::/5
-f800::/6
-
-# RFC 4193 Unique Local Unicast
+# Unique Local Unicast [RFC4193]
 fc00::/7
 
-# RFC 4291 Link Local Unicast
+# Link Local Unicast [RFC4291]
 fe80::/10
 
-# RFC 3879 Site Local Unicast (Deprecated)
+# Reserved by IETF [RFC3879]
 fec0::/10
 
-# RFC 5156 Multicast
+# Multicast [RFC4291]
 ff00::/8
-
-# 6to4 Bogons
-2002::/24
-2002:a00::/24
-2002:7f00::/24
-2002:a9fe::/32
-2002:ac10::/28
-2002:c000::/40
-2002:c000:200::/40
-2002:c0a8::/32
-2002:c612::/31
-2002:c633:6400::/40
-2002:cb00:7100::/40
-2002:e000::/20
-2002:f000::/20
-2002:ffff:ffff::/48
-
-# Teredo Bogons
-2001::/40
-2001:0:a00::/40
-2001:0:7f00::/40
-2001:0:a9fe::/48
-2001:0:ac10::/44
-2001:0:c000::/56
-2001:0:c000:200::/56
-2001:0:c0a8::/48
-2001:0:c612::/47
-2001:0:c633:6400::/56
-2001:0:cb00:7100::/56
-2001:0:e000::/36
-2001:0:f000::/36
-2001:0:ffff:ffff::/64
