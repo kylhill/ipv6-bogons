@@ -36,7 +36,7 @@
 fc00::/7
 
 # Link Local Unicast [RFC4291]
-fe80::/10
+#fe80::/10
 
 # Reserved by IETF [RFC3879]
 fec0::/10
