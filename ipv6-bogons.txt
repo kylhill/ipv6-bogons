@@ -15,7 +15,7 @@ fc00::/7
 # Reserved space immediately below link-local
 fe00::/9
 
-# Reserved by IETF
+# Deprecated site-local space immediately above link-local
 fec0::/10
 
 # Multicast
@@ -24,16 +24,23 @@ ff00::/8
 # Benchmarking
 2001:2::/48
 
-# Teredo prefix
+# Teredo
 2001::/32
 
 # Deprecated ORCHID
 2001:10::/28
 
+# ORCHIDv2
+2001:20::/28
+
+# Drone Remote ID Protocol Entity Tags
+2001:30::/28
+
 # Documentation
 2001:db8::/32
+3fff::/20
 
-# Deprecated 6to4
+# 6to4
 2002::/16
 
 # Returned 6bone space
