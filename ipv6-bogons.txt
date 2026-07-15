@@ -1,45 +1,40 @@
-# loopback, unspecified, v4-mapped
-::/8
+# Reserved and non-global space below 2000::/3
+::/3
 
-# IPv4-IPv6 Translat. [RFC6052]
-64:ff9b::/96
+# Reserved space above 2000::/3
+4000::/2
+8000::/2
+c000::/3
+e000::/4
+f000::/5
+f800::/6
 
-# reserved for Discard-Only Address Block [RFC6666]
-100::/8
-
-# Teredo prefix [RFC4380]
-2001::/32
-
-# Benchmarking [RFC5180]
-2001:2::/48
-
-# Automatic Multicast Tunneling [RFC7450]
-2001:3::/32
-
-# Deprecated ORCHID [RFC4843]
-2001:10::/28
-
-# ORCHIDv2 [RFC7343]
-2001:20::/28
-
-# NON-ROUTABLE range to be used for documentation purpose [RFC3849]
-2001:db8::/32
-
-# 6to4 prefix [RFC3068]
-2002::/16
-
-# used for the 6bone but was returned [RFC5156]
-3ffe::/16
-5f00::/8
-
-# Unique Local Unicast [RFC4193]
+# Unique Local Unicast
 fc00::/7
 
-# Link Local Unicast [RFC4291]
-#fe80::/10
+# Reserved space immediately below link-local
+fe00::/9
 
-# Reserved by IETF [RFC3879]
+# Reserved by IETF
 fec0::/10
 
-# Multicast [RFC4291]
+# Multicast
 ff00::/8
+
+# Benchmarking
+2001:2::/48
+
+# Teredo prefix
+2001::/32
+
+# Deprecated ORCHID
+2001:10::/28
+
+# Documentation
+2001:db8::/32
+
+# Deprecated 6to4
+2002::/16
+
+# Returned 6bone space
+3ffe::/16
